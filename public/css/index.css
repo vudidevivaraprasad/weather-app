@@ -1,0 +1,93 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-style: italic;
+    color: red;
+    background: url('../images/cloud.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.container {
+    color: black;   
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    width: 40%;
+    height: 55%;
+    background-color:rgb(255, 255, 255,0.2);
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    box-shadow:40px 40px 100px;
+    border: 0.1px rgba(255, 255, 255, 0.952) solid;
+
+}
+.search{
+    padding-top: 5%;
+    width: 100%;
+    height:auto;
+    margin: 0 20%;
+}
+::placeholder{
+    color: white;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.05);
+    font-weight: bold;
+    padding-left: 2%;
+    width: 50%;
+    height: 3.5vh;
+    border: 0.5px solid white;
+    border-radius: 1rem;
+    outline: none;
+    color: white;
+}
+button{
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 0.5px solid white;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0.5%;
+    margin-left: 1%;
+    cursor: pointer;
+    width: 10%;
+    color: white;
+    border-radius: 10px; 
+    transform: scale(1);
+    transition: 0.5s;   
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(110, 248, 110);
+    color: black;
+}
+.margin{
+    color: white;
+    margin: 0 20%;
+}
+.time{
+    color: white;
+    font-size: 1.5rem;
+    height: 10%;
+    margin-top: 5%;
+}
+.temp{
+    font-size: 100px;
+    margin: 0;
+    padding-top:5%;
+}
+.error{
+    color: rgb(110, 248, 110);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}

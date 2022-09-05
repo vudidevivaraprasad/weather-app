@@ -1,4 +1,3 @@
-console.log('client side data');
 const input = document.querySelector('input')
 const button = document.querySelector('button')
 const error = document.querySelector('.error')

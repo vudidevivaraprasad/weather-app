@@ -91,3 +91,57 @@ button:hover{
     top: 30%;
     left: 40%;
 }
+@media screen and (max-width:1250px){
+    .temp{
+        font-size: 4rem;
+    }
+    button {
+        width: auto;
+    }
+    .error{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:850px){
+    .container2{
+        width: 60%;
+    }
+    .error{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:580px){
+    .temp{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:400px){
+    .container2{
+        width: 80%;
+    }
+}
+@media screen and (max-height:650px){
+    .time{
+    font-size: 1rem;
+    height: 5%;
+    margin-top: 3%;
+    }
+}
+@media screen and (max-height:580px){
+    .search{
+        margin-bottom: 1%;
+    }
+    .margin {
+        margin: 1% 20%;
+    }
+}
+@media screen and (max-height:530px){
+    .container2{
+        height: 70%;
+    }
+}
+@media screen and (max-height:420px){
+    .container2{
+        height: 90%;
+    }
+}

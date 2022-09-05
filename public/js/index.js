@@ -21,7 +21,7 @@ button.addEventListener('click', ()=>{
             error.textContent = "Give some input"
     }
     else{
-     fetch(`http://127.0.0.1:8000/search?location=${location}`).then((res)=>{
+     fetch(`/search?location=${location}`).then((res)=>{
         res.json().then((data)=>{
             if(data.error){
                 temparature.textContent = ""

@@ -4,7 +4,7 @@ const weather = require('./weather_data')
 const hbs = require('hbs')
 const { time } = require('console')
 const app = express()
-const port = 8000
+const port = process.env.PORT || 8000
 
 const viewsPath = path.join(__dirname,'../templates/views') // this for holding the path
 const partialsPath = path.join(__dirname,'../templates/partials')
@@ -62,6 +62,6 @@ app.get('*',(req,res)=>{
         name:'prasad'
     })
 })
-app.listen('8000',()=>{
+app.listen(port,()=>{
     console.log('server is running');
 })
